@@ -1,11 +1,9 @@
 # My Portfolio
-Welcome to my portfolio! This project showcases my skills, projects, and experiences as a web developer.
+Welcome to my Portfolio! This site gives a bit of context into my work as a student, researcher, and PM.
 
 ## Features
 - About Me: An overview of my background, skills, and experiences.
-- Projects: A collection of my notable projects with descriptions, screenshots, and links.
-- Skills: A list of my technical skills and proficiencies.
-- Resume: A link to download my resume.
+- My Work: A collection of my notable projects with descriptions, screenshots, and links.
 - Contact: A form to send me messages or inquiries.
 
 ## Technologies Used
