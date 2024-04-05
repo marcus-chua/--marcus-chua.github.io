@@ -1,25 +1,64 @@
 export const Bio = {
-  name: "Nicholas Chua",
+  name: "Marcus",
   roles: [
-    "Product Manager",
-    "UI/UX Designer",
-    "Software Engineer",
-    "Business Analyst",
+    "Student",
+    "Product Builder",
+    "System Optimizer",
+    "AI Researcher",
+    "0-1 Specialist",
   ],
   description:
-    "As a product designer living in the LA Metropolitan area, I'm interested in building equitable products and software to solve the world’s biggest problems. Between my interests in product management, assistive technology, and digital marketing, I hope to bring new developments to people in large numbers.",
+    "As an Engineering student at Berkeley, I'm focused on applying my technical background to build generational products that have a real impact on real people. I'm passionate about transforming the way users experience life, connect with each other, and unlock their full potential in an increasingly digital world.",
+  description2: "Outside of the office, the lab, and the classroom, I find deep joy in chess, snowboarding, and EDM.",
+
   github: "https://github.com/nicholasychua",
   resume:
     "https://drive.google.com/file/d/1zq7_4sBinIX63y2S2ps7iq32_P7L61vl/view?usp=sharing",
-  linkedin: "https://www.linkedin.com/in/nicholas-y-chua",
+  linkedin: "https://www.linkedin.com/in/marcusyc/",
   twitter: "https://twitter.com/nicholasychua",
   insta: "https://www.instagram.com/nicholaschuas/",
   facebook: "https://www.facebook.com/nicholas.chua.58760",
+  substack: "https://marcuschua.substack.com/",
+  tableau: "https://public.tableau.com/app/profile/marcus",
 };
 
 export const skills = [
   {
-    title: "Product Management  ",
+    title: "Product ",
+    skills: [
+      {
+        name: "GTM Strategy",
+        image: "https://cdn-icons-png.flaticon.com/512/4363/4363846.png",
+      },
+      {
+        name: "Advanced Analytics",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/4/45/Notion_app_logo.png",
+      },
+      {
+        name: "Agile Management",
+        image:
+          "https://dovetail.com/logo.png",
+      },
+      {
+        name: "AI & ML",
+        image: "https://cdn-images-1.medium.com/max/1200/1*A6kkoOVJVpXPWewg8axc5w.png",
+      },
+      {
+        name: "Documentation",
+        image:
+          "https://assets-global.website-files.com/62e11362da2667ac3d0e6ed5/659d7f9e582a15e81030a3cf_Mural_Symbol_Multicolor_RGB.png",
+      },
+      {
+        name: "Roadmapping",
+        image:
+          "https://assets-global.website-files.com/62e11362da2667ac3d0e6ed5/659d7f9e582a15e81030a3cf_Mural_Symbol_Multicolor_RGB.png",
+      },
+
+    ],
+  },
+  {
+    title: "Design",
     skills: [
       {
         name: "Figma",
@@ -40,7 +79,7 @@ export const skills = [
           "https://asset.brandfetch.io/idAnDTFapY/idYC5f2L1X.png",
       },
       {
-        name: "Dovetail",
+        name: "UXR & UAT",
         image:
           "https://dovetail.com/logo.png",
       },
@@ -60,7 +99,7 @@ export const skills = [
     ],
   },
   {
-    title: "Coding",
+    title: "Engineering",
     skills: [
       {
         name: "React Js",
@@ -102,8 +141,8 @@ export const skills = [
       },
     ],
   },
-  {
-    title: "Others",
+  /*{
+    title: "Other",
     skills: [
       {
         name: "Git",
@@ -151,25 +190,25 @@ export const skills = [
           "https://seeklogo.com/images/T/typeform-logo-A4FC2E0B41-seeklogo.com.png",
       },
     ],
-  },
+  },*/
   {
-    title: "Awards",
+    title: "Awards & Honors",
     skills: [
       {
-        name: "National Speech Tournament Finalist",
+        name: "Dean's List - College of Engineering",
         image:
           "https://media2.giphy.com/media/uaM9fxlVLA6b2Uh7ct/giphy.gif?cid=6c09b9526q7zgcd4mykz4mz18th0cqi4hljsdr4qpu22qt2h&ep=v1_stickers_related&rid=giphy.gif&ct=s",
       },
       {
-        name: "Meta Hackathon Winner (Top 5 of 300+)",
+        name: "Top 1% of Class",
         image: "https://freelogopng.com/images/all_img/1664035876new-meta-logo.png",
       },
       {
-        name: "TKS Hackathon Finalist (Top 8 of 600+)",
+        name: "Venture Capital Investments Competition (VCIC) Regional Winner",
         image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
       },
       {
-        name: "Rotary Youth Leadership Award",
+        name: "Eagle Scout",
         image:
           "https://clubrunner.blob.core.windows.net/00000002427/PhotoAlbum/branding/Mark-of-Excellence-4992.png",
       },
@@ -181,48 +220,43 @@ export const experiences = [
   {
     id: 0,
     img: "https://images.crunchbase.com/image/upload/c_pad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/erbt7yw7tsufiiokrspx",
-    role: "Software Engineering Intern",
-    company: "Welfie",
-    date: "Dec 2023 - Present",
-    desc: "Currently: Working with software development team developing a generative AI therapist product; helped co-create product site using ReactJs and Google Virtual Cloud Computing Machine, utilized React router to create customizable profiles for users.",
+    role: "Project Leader, AI Research",
+    company: "Berkeley Operations & Behavioral Analytics Lab (BOBALAB)",
+    date: "Sept 2023 - Present",
+    desc: "Built AI products with HCI/UX research frameworks.",
     skills: [
-      "Full Stack Development",
-      "UI/UX Design",
-      "Open Source DevOps",
+      "Python",
+      "Qualtrics",
+      "Amazon MTurk",
     ],
   },
   {
     id: 0,
-    img: "https://images.crunchbase.com/image/upload/c_pad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/erbt7yw7tsufiiokrspx",
-    role: "Product Management Intern",
-    company: "Welfie",
-    date: "March 2023 - Dec 2023",
-    desc: "We raised over $525K developing a digital K-12 mental health database; led product-scoping for the youth around product; Worked with marketing team to identify pain points; created high-fidelity mockups of product (creating wireframes, Figma workflows, etc); released to 3+ school districts.",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Salesforce.com_logo.svg/1200px-Salesforce.com_logo.svg.png",
+    role: "Data Insights Intern",
+    company: "Salesforce",
+    date: "May 2023 - Aug 2023",
+    desc: "Built data products for Revenue Operations ($3.1B annually)",
     skills: [
-      "Product Development",
-      "Product Roadmapping",
-      "Market Research",
-      "UI/UX Design",
-      "Cross-team Collaboration",
-      "Stakeholder Management",
+      "Tableau",
+      "Figma",
+      "Quip",
     ],
   },
   {
     id: 1,
     img: "https://pbs.twimg.com/profile_images/1418096568863891458/YSqJukOh_400x400.jpg",
     role: "Product Management Intern",
-    company: "Sotira",
-    date: "Aug 2023 - Oct 2023",
-    desc: "Onboarded 300+ global businesses tracking cold outreach through OKR templates. Created business plans - increasing customer acquisition by 62%. Analyzed product demand through 20+ interviews with target audience companies. Created pricing calculation algorithms and high-fidelity mockups for products. Released pricing tools used by 1,000+ businesses.",
+    company: "Firstly (Ed-Tech Startup)",
+    date: "Jan 2023 - May 2023",
+    desc: "Built and implemented V2 of flagship product to advance upward mobility in first-gen students.",
     skills: [
-      "Product Development",
-      "Mockup Prototyping",
-      "User Interviews",
-      "Market Research",
-      "Competitive Analysis",
-      "User Synthesis",
+      "Airtable",
+      "Zapier",
+      "Miro"
     ],
   },
+  /*{
   {
     id: 4,
     img: "https://static.vecteezy.com/system/resources/thumbnails/011/801/488/small/eps10-black-podium-with-microphone-abstract-solid-icon-isolated-on-white-background-podium-rostrum-symbol-in-a-simple-flat-trendy-modern-style-for-your-website-design-logo-and-mobile-app-vector.jpg",
@@ -296,17 +330,17 @@ export const experiences = [
     ],
     doc: "https://i.ibb.co/gb0Yd26/Screenshot-2024-02-05-at-10-26-36-PM.png",
   },
+}*/
 ];
-
 export const education = [
   {
     id: 0,
     img: "https://3.files.edl.io/0bfb/22/11/02/190427-7e773200-a6eb-490a-9adb-d4d086387aa8.png",
-    school: "San Marino High School",
+    school: "UC Berkeley",
     date: "Aug 2020 - May 2024",
-    grade: "4.30 WGPA",
+    grade: "4.0 GPA",
     desc: "I am currently pursuing a Bachelor's degree in Industrial Engineering and Computer Science. 34 ACT, Titan Elite Scholar Athlete, 3-Year Varsity Sports Member. Clubs: Speech and Debate, FIRST Robotics, Track and Field, Business Professionals of America.",
-    degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
+    degree: "B.S. Industrial Engineering & Operations Research (IEOR), Minors in Computer Science & Data Science",
   },
   {
     id: 1,
@@ -332,51 +366,61 @@ export const education = [
 export const projects = [
   {
     id: 0,
-    title: "Meta Hackathon",
-    date: "Dec 2023 - Jan 2024",
+    title: "On Gamma - Presentations",
+    date: "March 2024",
     description:
-      "Won the grand prize in Meta's Global Hackathon with our project, The Meta Content Choice Menu! Using Meta’s existing LLM and computer vision, we repurposed Meta’s exisiting video data to categorize videos into different “watch categories,” allowing users to watch what they want, when they want it, mitigating this new era of doom scrollers.",
+      "Unlocking Enterprise Personalization for the Anti-PowerPoint",
     image:
-      "https://i.ibb.co/1fmgwsv/Screenshot-2024-02-01-at-3-19-59-PM.png",
-    tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
-    category: "machine learning",
-    github: "https://www.loom.com/share/6004e0e54dca493498f6d7fb6de9dca0?sid=f0acf50e-351f-4f33-9c8c-8f60e423ed25",
+      "https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F663a4da0-3fec-4ca1-8587-2fbe078c45cf_1400x700.png",
+    tags: ['Genesis', "Consumer Tech", 'Generative AI', 'Productivity'],
+    category: "Case Study",
+    link: "https://marcuschua.substack.com/p/genesis-on-enabling-next-level-personalization",
+    github: "https://marcuschua.substack.com/p/genesis-on-enabling-next-level-personalization",
+    content: "https://marcuschua.substack.com/p/genesis-on-enabling-next-level-personalization",
+
     webapp: "https://drive.google.com/file/d/1GICgVj4WkiPDnu2s1gdoMsBWeT1v21Aj/view?usp=sharing",
   },
   {
     id: 9,
-    title: "Sotira",
-    date: "May 2023 - Aug 2023",
+    title: "On Spotify - Playlisting",
+    date: "March 2024",
     description:
-      "Sotira is an online platform that allows businesses to track, price, and store products effectively and in an organized manner. Specifically through the pricing calculation tool, businesses can put their cost data into the calculator and receive detailed analytics on the ideal price, profit margin, or hourly wage they should sell their products at to best achieve their goals.",
+      "Elevating the Playlisting Experience for Emerging Artists",
     image:
-      "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fb179d7b7-8b31-42eb-82eb-cc2b1d31a027%2F778b1dac-67cc-4a01-aa5f-122dadd255b5%2FScreenshot_2024-02-06_at_3.24.05_PM.png?table=block&id=c4c48f25-6f8c-481a-95f8-a39875aa4ea2&spaceId=b179d7b7-8b31-42eb-82eb-cc2b1d31a027&width=2000&userId=b4da4129-1870-4afc-b5b3-089e826396d6&cache=v2",
+      "https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F824b8eb9-81a9-49f3-b491-470807d52f8a_1920x1080.png",
     tags: [
-      "Figma",
-      "Google Slides",
-      "Prototyping",
-      "Eslint",
-      "Husky",
-      "CI/CD",
-      "React Js",
+      'Genesis', "Consumer Tech", 'Entertainment',
     ],
-    category: "web app",
+    category: "Case Study",
     github: "https://www.sotira.app/dashboard",
     webapp: "https://www.sotira.app/dashboard",
   },
   {
     id: 8,
-    title: "Relexia",
-    date: "Aug 2023",
+    title: "offense & defense",
+    date: "December 2023",
     description:
-      "Relexia is a pair of smart augmented reality glasses that can translate text for students with dyslexia. Using a machine learning algorithm and a prediction model to manipulate text in real time, Relexia can help alleviate the mental strain dyslexic students face in school. Pitched  product to judges from Apple, SpaceX, and MIT, and made it to the grand finals in The Knowledge Society’s Global Hackathon (Top 6 of 600+).",
+      "A discussion of connection, presence, and writing.",
     image:
-      "https://i.ibb.co/KFdyKN7/Screenshot-2024-02-01-at-3-07-24-PM.png",
-    tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
-    category: "machine learning",
+      "https://static.wixstatic.com/media/8a62f1_45e3272049fa419db68d43a92fbde751~mv2.jpg/v1/fill/w_1000,h_667,al_c,q_85,usm_0.66_1.00_0.01/8a62f1_45e3272049fa419db68d43a92fbde751~mv2.jpg",
+    tags: ["Braindumping"],
+    category: "Essays",
     github: "https://www.loom.com/share/e33bc18176e44f50b662f3954177b2cf?sid=a8581709-5acf-4848-b693-d949aa9cd307",
+    content: "https://marcuschua.substack.com/p/offense-and-defense",
     webapp: "https://docs.google.com/presentation/d/1qU1EQ8tyiowu3818KHie_A3apaW8QtbrgI_0KSjHYQQ/edit?usp=sharing",
-  },
+  }
+];
+
+export const TimeLineData = [
+  { year: 2017, text: "Started my journey" },
+  { year: 2018, text: "Worked as a freelance developer" },
+  { year: 2019, text: "Founded JavaScript Mastery" },
+  { year: 2020, text: "Shared my projects with the world" },
+  { year: 2021, text: "Started my own platform" },
+];
+
+
+{/*
   {
     id: 1,
     title: "TKSLife",
@@ -429,13 +473,4 @@ export const projects = [
     category: "web app",
     github: "https://www.welfie.com/thewell",
     webapp: "https://dev.welfie.com/signin",
-  },
-];
-
-export const TimeLineData = [
-  { year: 2017, text: "Started my journey" },
-  { year: 2018, text: "Worked as a freelance developer" },
-  { year: 2019, text: "Founded JavaScript Mastery" },
-  { year: 2020, text: "Shared my projects with the world" },
-  { year: 2021, text: "Started my own platform" },
-];
+  },*/}

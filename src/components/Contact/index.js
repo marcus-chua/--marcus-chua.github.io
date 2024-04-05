@@ -4,6 +4,8 @@ import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { Snackbar } from "@mui/material";
 
+//npm i @emailjs/browser
+
 const Container = styled.div`
   display: flex;
   flex-direction: column;
@@ -138,7 +140,7 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    emailjs.sendForm('service_zhw08bx', 'template_2312xvi', form.current, 'PW-6KUQ51QvQu4_UI')
+    emailjs.sendForm('service_44jtj0w', 'template_2312xvi', form.current, 'PW-_zGsUNCBObL8pZKjP')
     .then((result) => {
     setOpen(true);
     form.current.reset();
@@ -152,10 +154,10 @@ const Contact = () => {
       <Wrapper>
         <Title>Contact</Title>
         <Desc>
-          Feel free to reach out to me for any questions or opportunities!
+          Got questions, ideas, or just want to say hi? Leave me a note here, or message me on LinkedIn :)
         </Desc>
         <ContactForm ref={form} onSubmit={handleSubmit}>
-          <ContactTitle>Email Me 🚀</ContactTitle>
+          <ContactTitle>{/*Email Me 🚀*/}</ContactTitle>
           <ContactInput placeholder="Your Email" name="from_email" />
           <ContactInput placeholder="Your Name" name="from_name" />
           <ContactInput placeholder="Subject" name="subject" />
