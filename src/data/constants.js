@@ -365,7 +365,54 @@ export const education = [
 
 export const projects = [
   {
-    id: 0,
+    id: 6,
+    title: "on generalists - part 1",
+    date: "July 2024",
+    description:
+      "optimizing for range",
+    image:
+      "https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0451992f-e35e-41a8-acdb-59e589b5b408_600x362.jpeg",
+    tags: ['Braindumping'],
+    category: "Essay",
+    link: "https://marcuschua.substack.com/p/on-generalists-part-1",
+    github: "https://marcuschua.substack.com/p/genesis-on-enabling-next-level-personalization",
+    content: "https://marcuschua.substack.com/p/on-generalists-part-1",
+
+    webapp: "https://drive.google.com/file/d/1GICgVj4WkiPDnu2s1gdoMsBWeT1v21Aj/view?usp=sharing",
+  },
+  {
+    id:5,
+    title: "1:1's with ourselves",
+    date: "June 2024",
+    description:
+      "on playing solo",
+    image:
+      "https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F38e9ad6f-08b1-48c5-96dd-ed6ca8b2c3aa_1920x1018.png",
+    tags: ['Braindumping'],
+    category: "Essay",
+    link: "https://marcuschua.substack.com/p/11s-with-ourselves",
+    github: "https://marcuschua.substack.com/p/genesis-on-enabling-next-level-personalization",
+    content: "https://marcuschua.substack.com/p/11s-with-ourselves",
+
+    webapp: "https://drive.google.com/file/d/1GICgVj4WkiPDnu2s1gdoMsBWeT1v21Aj/view?usp=sharing",
+  },
+  {
+    id: 4,
+    title: "a look in the mirror",
+    date: "May 2024",
+    description:
+      "if Berkeley's logo can change, why can't we?",
+    image:
+      "https://www.shutterstock.com/image-vector/vector-illustration-chess-pawn-casting-600nw-1885098667.jpg",
+    tags: ['Braindumping'],
+    category: "Essay",
+    link: "https://marcuschua.substack.com/p/a-look-in-the-mirror",
+    github: "https://marcuschua.substack.com/p/genesis-on-enabling-next-level-personalization",
+    content: "https://marcuschua.substack.com/p/a-look-in-the-mirror",
+    webapp: "https://drive.google.com/file/d/1GICgVj4WkiPDnu2s1gdoMsBWeT1v21Aj/view?usp=sharing",
+  },
+  {
+    id: 3,
     title: "On Gamma - Presentations",
     date: "March 2024",
     description:
@@ -381,7 +428,7 @@ export const projects = [
     webapp: "https://drive.google.com/file/d/1GICgVj4WkiPDnu2s1gdoMsBWeT1v21Aj/view?usp=sharing",
   },
   {
-    id: 9,
+    id: 2,
     title: "On Spotify - Playlisting",
     date: "March 2024",
     description:
@@ -396,7 +443,7 @@ export const projects = [
     webapp: "https://www.sotira.app/dashboard",
   },
   {
-    id: 8,
+    id: 1,
     title: "offense & defense",
     date: "December 2023",
     description:
@@ -404,7 +451,7 @@ export const projects = [
     image:
       "https://static.wixstatic.com/media/8a62f1_45e3272049fa419db68d43a92fbde751~mv2.jpg/v1/fill/w_1000,h_667,al_c,q_85,usm_0.66_1.00_0.01/8a62f1_45e3272049fa419db68d43a92fbde751~mv2.jpg",
     tags: ["Braindumping"],
-    category: "Essays",
+    category: "Essay",
     github: "https://www.loom.com/share/e33bc18176e44f50b662f3954177b2cf?sid=a8581709-5acf-4848-b693-d949aa9cd307",
     content: "https://marcuschua.substack.com/p/offense-and-defense",
     webapp: "https://docs.google.com/presentation/d/1qU1EQ8tyiowu3818KHie_A3apaW8QtbrgI_0KSjHYQQ/edit?usp=sharing",
