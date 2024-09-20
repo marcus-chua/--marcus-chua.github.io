@@ -154,10 +154,10 @@ const Contact = () => {
       <Wrapper>
         <Title>Contact</Title>
         <Desc>
-          Got questions, ideas, or just want to say hi? Leave me a note here, or message me on LinkedIn :)
+          Got questions, ideas, or just want to say hi? Reach out to marcuschua (at) berkeley (dot) edu, or message me on LinkedIn :)
         </Desc>
-        <ContactForm ref={form} onSubmit={handleSubmit}>
-          <ContactTitle>{/*Email Me 🚀*/}</ContactTitle>
+        {/*}tactForm ref={form} onSubmit={handleSubmit}>
+          <ContactTitle>{Email Me 🚀}</ContactTitle>
           <ContactInput placeholder="Your Email" name="from_email" />
           <ContactInput placeholder="Your Name" name="from_name" />
           <ContactInput placeholder="Subject" name="subject" />
@@ -171,6 +171,7 @@ const Contact = () => {
           message="Email sent successfully!"
           severity="success"
         />
+  */}
       </Wrapper>
     </Container>
   );
